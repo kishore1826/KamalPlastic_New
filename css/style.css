@@ -508,7 +508,7 @@
 }
 
 .footer .btn.btn-link:hover {
-  color: var(--primary);
+  color: var(--light);
   letter-spacing: 1px;
   box-shadow: none;
 }
