@@ -523,9 +523,9 @@
   color: var(--light);
 }
 
-.footer .copyright a:hover {
+/* .footer .copyright a:hover {
   color: var(--primary);
-}
+} */
 
 .rate-button {
   background-color: #fff;

@@ -76,23 +76,13 @@
           <div class="h-100 d-inline-flex align-items-center py-3 me-4 gap-1">
             <small class="fa fa-phone-alt text-primary me-2"></small>
             <small>+91 9443397250,</small>
-            <small>+91 9443397250</small>
+            <small>+91 9486387322</small>
           </div>
           <div class="h-100 d-inline-flex align-items-center">
             <a
               class="btn btn-sm-square rounded-circle bg-white text-primary me-1"
               href=""
               ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a
-              class="btn btn-sm-square rounded-circle bg-white text-primary me-1"
-              href=""
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <a
-              class="btn btn-sm-square rounded-circle bg-white text-primary me-1"
-              href=""
-              ><i class="fab fa-linkedin-in"></i
             ></a>
             <a
               class="btn btn-sm-square rounded-circle bg-white text-primary me-0"
@@ -104,7 +94,6 @@
       </div>
     </div>
     <!-- Topbar End -->
-
     <!-- Navbar Start -->
     <nav
       class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn"
@@ -241,7 +230,6 @@
       class="container-fluid page-header py-5 mb-5 wow fadeIn"
       data-wow-delay="0.1s"
     >
-
       <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">
           Our Packaging
@@ -263,153 +251,211 @@
     </div>
     <!-- Page Header End -->
     <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Packaging</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <style>
-        body {
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Product Packaging</title>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <style>
+          body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
-        }
-        .container {
+          }
+          .container {
             max-width: 1200px;
             margin: auto;
             padding: 40px 20px;
-        }
-        .section {
+          }
+          .section {
             display: flex;
             align-items: center;
             justify-content: space-between;
             padding: 50px 0;
             transition: all 0.5s ease-in-out;
-        }
-        .section:nth-child(even) {
+            flex-direction: row;
+            @media (max-width: 992px) {
+              flex-direction: column;
+            }
+          }
+          .section:nth-child(even) {
             flex-direction: row-reverse;
-        }
-        .text-box {
+            @media (max-width: 992px) {
+              flex-direction: column;
+            }
+          }
+          .text-box {
             flex: 1;
             padding: 20px;
             animation: fadeInLeft 1s;
-        }
-        .text-box h1 {
-            color: #92534A;
+          }
+          .text-box h1 {
+            color: #92534a;
             font-size: 32px;
             margin-bottom: 20px;
-        }
-        .text-box p {
+          }
+          .text-box p {
             font-size: 18px;
             color: #555;
             margin-bottom: 15px;
-        }
-        .quantity {
+          }
+          .quantity {
             display: flex;
             align-items: center;
             font-size: 18px;
             color: #333;
             font-weight: bold;
-        }
-        .quantity i {
+          }
+          .quantity i {
             margin-right: 10px;
-            color: #92534A;
-        }
-        .image-box {
+            color: #92534a;
+          }
+          .image-box {
             flex: 1;
             text-align: center;
             overflow: hidden;
             animation: fadeInRight 1s;
-        }
-        .image-box img {
+          }
+          .image-box img {
             width: 100%;
             max-width: 500px;
             border-radius: 10px;
             transition: transform 0.5s ease-in-out;
-        }
-        .image-box img:hover {
+          }
+          .image-box img:hover {
             transform: scale(1.05);
-        }
-        @keyframes fadeInLeft {
-            from { opacity: 0; transform: translateX(-50px); }
-            to { opacity: 1; transform: translateX(0); }
-        }
-        @keyframes fadeInRight {
-            from { opacity: 0; transform: translateX(50px); }
-            to { opacity: 1; transform: translateX(0); }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-      <div class="col-lg-6 mx-auto text-center wow fadeInUp" data-wow-delay="0.5s">
-        <p class="d-inline-block border rounded-pill py-1 px-4">Our Packing</p>
-        <h1 class="mb-4">Unbox Quality. Unwrap Trust.</h1>
-        <p>
-          At Kamal Plastics,we take pride in delivering not just exceptional products but also an outstanding unboxing experience. Our packaging is designed with meticulous attention to detail, ensuring that your purchase arrives in perfect condition every time.
-        </p>
-      </div>
-        <div class="section">
+          }
+          @keyframes fadeInLeft {
+            from {
+              opacity: 0;
+              transform: translateX(-50px);
+            }
+            to {
+              opacity: 1;
+              transform: translateX(0);
+            }
+          }
+          @keyframes fadeInRight {
+            from {
+              opacity: 0;
+              transform: translateX(50px);
+            }
+            to {
+              opacity: 1;
+              transform: translateX(0);
+            }
+          }
+        </style>
+      </head>
+      <body>
+        <div class="container">
+          <div
+            class="col-lg-6 mx-auto text-center wow fadeInUp"
+            data-wow-delay="0.5s"
+          >
+            <p class="d-inline-block border rounded-pill py-1 px-4">
+              Our Packing
+            </p>
+            <h1 class="mb-4">Unbox Quality. Unwrap Trust.</h1>
+            <p>
+              At Kamal Plastics,we take pride in delivering not just exceptional
+              products but also an outstanding unboxing experience. Our
+              packaging is designed with meticulous attention to detail,
+              ensuring that your purchase arrives in perfect condition every
+              time.
+            </p>
+          </div>
+          <div class="section">
             <div class="text-box wow slideInLeft">
-                <h1>Packing of Junction Box</h1>
-                <p>Our Junction Boxes are meticulously packed in high-quality, durable bags to ensure their safety during transit and storage.</p>
-                <div class="quantity"><i class="fa fa-box-open"></i> Each box contains 100 pieces</div>
+              <h1>Packing of Junction Box</h1>
+              <p>
+                Our Junction Boxes are meticulously packed in high-quality,
+                durable bags to ensure their safety during transit and storage.
+              </p>
+              <div class="quantity">
+                <i class="fa fa-box-open"></i> Each box contains 100 pieces
+              </div>
             </div>
             <div class="image-box wow slideInRight">
-                <img src="img/package-1.jpg" alt="Junction Box Packaging">
+              <img src="img/package-1.jpg" alt="Junction Box Packaging" />
             </div>
-        </div>
+          </div>
 
-        <div class="section">
+          <div class="section">
             <div class="text-box wow slideInLeft">
-                <h1>Packing of Ceiling Plate</h1>
-                <p>Our Ceiling Plates are securely packed in sturdy boxes to prevent any damage and ensure they arrive in perfect condition.</p>
-                <div class="quantity"><i class="fa fa-box-open"></i> Each box contains 100 pieces</div>
+              <h1>Packing of Ceiling Plate</h1>
+              <p>
+                Our Ceiling Plates are securely packed in sturdy boxes to
+                prevent any damage and ensure they arrive in perfect condition.
+              </p>
+              <div class="quantity">
+                <i class="fa fa-box-open"></i> Each box contains 100 pieces
+              </div>
             </div>
             <div class="image-box wow slideInRight">
-                <img src="img/package-2.jpg" alt="Ceiling Plate Packaging">
+              <img src="img/package-2.jpg" alt="Ceiling Plate Packaging" />
             </div>
-        </div>
+          </div>
 
-        <div class="section">
+          <div class="section">
             <div class="text-box wow slideInLeft">
-                <h1>Packing of Fan Plate</h1>
-                <p>Fan Plates are carefully packed in robust boxes, providing excellent protection and facilitating safe delivery.</p>
-                <div class="quantity"><i class="fa fa-box-open"></i> Each box contains 100 pieces</div>
+              <h1>Packing of Fan Plate</h1>
+              <p>
+                Fan Plates are carefully packed in robust boxes, providing
+                excellent protection and facilitating safe delivery.
+              </p>
+              <div class="quantity">
+                <i class="fa fa-box-open"></i> Each box contains 100 pieces
+              </div>
             </div>
             <div class="image-box wow slideInRight">
-                <img src="img/package-3.jpg" alt="Fan Plate Packaging">
+              <img src="img/package-3.jpg" alt="Fan Plate Packaging" />
             </div>
-        </div>
+          </div>
 
-        <div class="section">
+          <div class="section">
             <div class="text-box wow slideInLeft">
-                <h1>Packing of Spot Box</h1>
-                <p>Each Spot Box is individually packed with a protective cover, ensuring it remains pristine and undamaged until use.</p>
-                <div class="quantity"><i class="fa fa-box-open"></i> Each box contains 100 pieces</div>
+              <h1>Packing of Spot Box</h1>
+              <p>
+                Each Spot Box is individually packed with a protective cover,
+                ensuring it remains pristine and undamaged until use.
+              </p>
+              <div class="quantity">
+                <i class="fa fa-box-open"></i> Each box contains 100 pieces
+              </div>
             </div>
             <div class="image-box wow slideInRight">
-                <img src="img/package-4.jpg" alt="Spot Box Packaging">
+              <img src="img/package-4.jpg" alt="Spot Box Packaging" />
             </div>
-        </div>
+          </div>
 
-        <div class="section">
+          <div class="section">
             <div class="text-box wow slideInLeft">
-                <h1>Packing of Fan Box</h1>
-                <p>Fan Boxes are individually packed with a durable cover to maintain their quality and integrity.</p>
-                <div class="quantity"><i class="fa fa-box-open"></i> Each box contains 100 pieces</div>
+              <h1>Packing of Fan Box</h1>
+              <p>
+                Fan Boxes are individually packed with a durable cover to
+                maintain their quality and integrity.
+              </p>
+              <div class="quantity">
+                <i class="fa fa-box-open"></i> Each box contains 100 pieces
+              </div>
             </div>
             <div class="image-box wow slideInRight">
-                <img src="img/package-5.jpg" alt="Fan Box Packaging">
+              <img src="img/package-5.jpg" alt="Fan Box Packaging" />
             </div>
+          </div>
         </div>
-    </div>
-</body>
-</html>
-    
+      </body>
+    </html>
 
     <!-- Footer Start -->
     <div
@@ -421,61 +467,50 @@
           <div class="col-lg-3 col-md-6">
             <h5 class="text-light mb-4">Address</h5>
             <p class="mb-2">
-              <i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA
+              <i class="fa fa-map-marker-alt me-3"></i>No.14 Mohammed Nabi
+              Street, Roshanai, Tindivanam
             </p>
             <p class="mb-2">
-              <i class="fa fa-phone-alt me-3"></i>+012 345 67890
+              <i class="fa fa-phone-alt me-3"></i>+91 9443397250, +91 9486387322
             </p>
             <p class="mb-2">
-              <i class="fa fa-envelope me-3"></i>info@example.com
+              <i class="fa fa-envelope me-3"></i>
+              <a href="mailto:kamalplastic1989@gmail.com" class="text-white"
+                >kamalplastic1989@gmail.com</a
+              >
             </p>
             <div class="d-flex pt-2">
               <a class="btn btn-outline-light btn-social rounded-circle" href=""
-                ><i class="fab fa-twitter"></i
-              ></a>
+                ><i class="fab fa-instagram"></i>
+              </a>
               <a class="btn btn-outline-light btn-social rounded-circle" href=""
                 ><i class="fab fa-facebook-f"></i
               ></a>
-              <a class="btn btn-outline-light btn-social rounded-circle" href=""
-                ><i class="fab fa-youtube"></i
-              ></a>
-              <a class="btn btn-outline-light btn-social rounded-circle" href=""
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
-            <h5 class="text-light mb-4">Services</h5>
-            <a class="btn btn-link" href="">Cardiology</a>
-            <a class="btn btn-link" href="">Pulmonary</a>
-            <a class="btn btn-link" href="">Neurology</a>
-            <a class="btn btn-link" href="">Orthopedics</a>
-            <a class="btn btn-link" href="">Laboratory</a>
+            <h5 class="text-light mb-4">Brands</h5>
+            <a class="btn btn-link" href="kamal.html">Kamal Products</a>
+            <a class="btn btn-link" href="rajal.html">Rajal Products</a>
           </div>
           <div class="col-lg-3 col-md-6">
             <h5 class="text-light mb-4">Quick Links</h5>
-            <a class="btn btn-link" href="">About Us</a>
-            <a class="btn btn-link" href="">Contact Us</a>
-            <a class="btn btn-link" href="">Our Services</a>
-            <a class="btn btn-link" href="">Terms & Condition</a>
-            <a class="btn btn-link" href="">Support</a>
+            <a class="btn btn-link" href="about.html">About Us</a>
+            <a class="btn btn-link" href="our-packaging.html">Our Packaging</a>
+            <a class="btn btn-link" href="kamal.html">Kamal Products</a>
+            <a class="btn btn-link" href="rajal.html">Rajal Products</a>
+            <a class="btn btn-link" href="contact.html">Contact</a>
           </div>
           <div class="col-lg-3 col-md-6">
-            <h5 class="text-light mb-4">Newsletter</h5>
-            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-            <div class="position-relative mx-auto" style="max-width: 400px">
-              <input
-                class="form-control border-0 w-100 py-3 ps-4 pe-5"
-                type="text"
-                placeholder="Your email"
-              />
-              <button
-                type="button"
-                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
-              >
-                SignUp
-              </button>
-            </div>
+            <h3 class="text-light mb-4" style="font-family: 'Maturasc'">
+              Kamal Plastics
+            </h3>
+            <p>
+              Dedicated to delivering high-quality PVC wiring solutions, we
+              foster sustainability and lasting partnerships. Our mission is to
+              enhance connectivity and well-being, empowering communities
+              through top-notch pipes and junctions.
+            </p>
           </div>
         </div>
       </div>
@@ -483,15 +518,13 @@
         <div class="copyright">
           <div class="row">
             <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-              &copy; <a class="border-bottom" href="#">Your Site Name</a>, All
-              Right Reserved.
+              &copy; <a class="border-bottom" href="#">kamalplastics.com</a>,
+              All Right Reserved.
             </div>
             <div class="col-md-6 text-center text-md-end">
               <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
               Designed By
-              <a class="border-bottom" href="https://htmlcodex.com"
-                >HTML Codex</a
-              >
+              <a class="border-bottom" href="">DigiVerza</a>
             </div>
           </div>
         </div>
